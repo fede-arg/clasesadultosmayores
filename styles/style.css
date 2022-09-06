@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+   }
+
+
+/*header*/
+
+
+.menu {
+    list-style-type: none;
+    background-color: #0b170bb2 ;
+    font-family: kanit;
+    right: inherit;
+    text-align: right;
+    position: sticky;
+    
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    list-style-type: none
+}
+
+.menu li a {
+    display: inline;
+    margin-right: 10px;
+    color: #9af3ac;
+    text-align: right;
+    text-decoration: none;
+    
+}
+
+h1 {
+    color:#a486c2;
+    background-color: #0b170bb2;
+    font-family: kanit ;
+    text-align: center;
+    padding: 20px;
+    font-size: 2 50%;
+}
+
+h1 a {
+    color:#a486c2;
+    background-color: none;
+    font-family: kanit ;
+    text-align: center;
+    padding: 20px;
+    font-size: 2 50%;
+    text-decoration: none
+}
+
+/*FINheader*/
+
+/*BODY*/
+
+body {
+    background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-index {
+    background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+main {
+    padding: 0px;
+}
+
+/*cartas*/ 
+
+.griddd {
+    display: grid;
+    grid-column: 2fr;
+    grid-row: 1fr;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.flex-container div {
+    background-color:#a486c287;
+    width: 300px;
+    height: 400px;
+    margin:10px;
+    text-align: center;
+    line-height: 90px;
+    border: 1px solid black;
+    font-size: 50px;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.container1 {
+    padding: 20px;
+    box-shadow: 0 25px 50px -8px rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    text-decoration: none;
+    border-right: 50px;
+}
+
+.container1-img {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.container1-titulo {
+    font-size: 20px;
+    line-height: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.container1-parrafo {
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+.container1-parrafo2 {
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.container1-boton {
+    background-color: #9af3ac7c;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50%;
+}
+.container1-boton a {
+    text-decoration: none;
+}
+
+
+.container2 {
+    padding: 20px;
+    box-shadow: 0 25px 50px -8px rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-left: 50px;
+}
+.container2-img {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.container2-titulo {
+    font-size: 20px;
+    line-height: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+.container2-parrafo {
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+.container2-parrafo2 {
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.container2-boton {
+    background-color: #9af3ac7c;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 50%;
+}
+.container2-boton a {
+    text-decoration: none;
+}
+
+/*FINtarjetas*/
+
+/*PARRAFITO*/
+
+.parrafito {
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 280px;
+    background-color:#9af3ac56;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/*FINPARRAFITO*/
+
+
+
+
+/*VIDEO*/
+
+.grid-container {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    grid-template-columns: 25% 50% 25%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 15px;
+} 
+
+.video1 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100fr;
+}
+.video2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.video iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video3 {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+
+/*FINvideo*/
+
+
+.encuentre {
+    background-color: #59a769;
+    text-align: center;
+}
+footer {
+    background-color: #9af3ac;
+    text-align: center;
+}
+/*otros enlaces*/
+
+/*CONTACTO*/
+
+.carta__contacto {
+    width: 400px;
+    height: 450px;
+    background-color: #9af3ac71;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: 100px;
+    margin-bottom:211px;
+    text-align: start;
+    text-decoration: none;
+    padding-inline: 25px;
+    border-color: #a486c2;
+}
+
+.h2__contacto{
+    background-color: none;
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    padding: 20px;
+}
+button {
+    margin-left: 140px;
+    background-color: #a486c2;
+    border-radius: 10px;
+    width: 30%;
+}
+
+
+/*REGISTRARSE*/
+
+
+.pepe {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: double;
+    margin-top: 50px;
+}
+
+
+.registrarseee {
+    width: 400px;
+    height: 420px;
+    background-color: #9af3ac71;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 750px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+    text-align:right;
+    border: 1px solid black;
+    border-radius: 20px;
+    }
+.nombre {
+    padding: 10px;
+}
+.apellido {
+    padding: 10px;
+}
+.localidad {
+    padding: 10px;
+}
+.provincia {
+    padding: 10px;
+}
+.pais {
+    padding: 10px;
+}
+.numero {
+    padding: 10px;
+}
+.email {
+    padding: 10px;
+}
+
+
+
+.boton__registrarse {
+    margin-top: 50px;
+}
+
+
+
+/*PAGINA ONLINE*/
+
+.tarjeta-online {
+    margin-bottom: 201px;
+}
+
+/*PAGINA GRABADAS*/
+
+.tarjeta-grabadas {
+    margin-bottom: 201px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .menu li a {
+        font-size: 12px;
+        display: inline;
+        margin-right: 50px;
+    }
+h1 {
+    font-size: 18px;
+}
+
+body {
+    background-color: #59a769;
+}
+
+.body-index {
+    background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+    background-repeat: no-repeat;
+    margin-top: 268px;
+    background-size: 100% ;
+}
+
+.griddd {
+    display: grid;
+    grid-column: 2fr;
+    grid-row: 1fr;
+    height: 850px;
+}
+    .flex-container {
+        display: grid;
+        grid-column: 1fr;
+        grid-row: 1fr;
+        margin-top: 10px;
+        margin-bottom: 0 ;
+    }
+    .flex-container div {
+        background-color:#a486c287;
+        width: 225px;
+        height: 300px;
+        margin:20px;
+        text-align: center;
+        line-height: 90px;
+        border: 1px solid black;
+        font-size: 50px;
+        justify-content: center;
+        text-decoration: none;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .container1-titulo {
+        font-size: 15px;
+        line-height: 10px;
+        margin: 20px;
+        margin-top: 30px;
+    }
+   
+    .container2-titulo {
+        font-size: 15px;
+    }
+
+    .parrafito {
+        text-align: center;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        background-color:#a486c2;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-row: 3fr;
+        align-content: center;
+        grid-template-rows: 33% 33% 33%;
+        
+    }
+
+
+
+
+    .video2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .video2 iframe {
+        width: 360px;
+        height: 202px;
+    }
+
+    .encuentre {
+        background-color: #a486c2;
+    }
+    
+
+    
+}
