@@ -33,7 +33,10 @@
     color: #9af3ac;
     text-align: right;
     text-decoration: none;
-    
+}
+.menu li a:hover {
+    font-style: bold;
+    color: #a486c2;
 }
 
 h1 {
@@ -152,6 +155,15 @@ main {
     text-decoration: none;
 }
 
+.container1:hover {
+    width: 400px;
+    height: 500px;
+    background-color:#a486c2;
+    margin-bottom: 0px;
+}
+.container1 {
+    transition: 1s;
+}
 
 .container2 {
     padding: 20px;
@@ -194,7 +206,15 @@ main {
 .container2-boton a {
     text-decoration: none;
 }
-
+.container2:hover {
+    width: 400px;
+    height: 500px;
+    background-color:#a486c2;
+    margin-bottom: 0px;
+}
+.container2 {
+    transition: 1s;
+}
 /*FINtarjetas*/
 
 /*PARRAFITO*/
@@ -209,6 +229,11 @@ main {
     border-radius: 20px;
     font-weight: bold;
 }
+.parrafito:hover {
+    font-size: 21px;
+    background-color:#9af3acc3 ;
+}
+
 
 /*FINPARRAFITO*/
 
