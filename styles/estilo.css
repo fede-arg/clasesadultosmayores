@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: kanit;
+}
+*::-moz-selection {
+  background-color: #a64f02;
+  color: #59a769;
+}
+*::selection {
+  background-color: #a64f02;
+  color: #59a769;
+}
+
+.title_central {
+  height: 80vh;
+  background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 200px;
+}
+.title_central h2 {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  color: #ebebeb;
+  font-size: 60px;
+  padding: 7px;
+  border: solid 2px #ffffff;
+}
+.title_central h3 {
+  color: #020700;
+  padding: 7px;
+}
+.title_central .parrafito {
+  color: #020700;
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.title_central.parrafito:hover {
+  color: #020700;
+  background-color: rgba(255, 192, 144, 0.7843137255);
+  transition: 1s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7FB77E;
+  height: 100px;
+}/*# sourceMappingURL=estilo.css.map */

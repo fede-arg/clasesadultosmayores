@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+
+    &::selection {
+        background-color: #a64f02;
+        color: #59a769;
+    }
+}

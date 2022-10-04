@@ -1,0 +1,39 @@
+.title_central {
+    height: 80vh;
+    background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+
+    h2 {
+        display: flex;
+    place-items: center;
+    justify-content: center;
+    color: #ebebeb;
+    font-size: 60px;
+    padding: 7px;
+    border: solid 2px #ffffff;  
+    }
+
+    h3 {
+        color: #020700;
+        padding: 7px;
+    }
+
+    .parrafito {
+        color: #020700;
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    }       
+}
+
+
