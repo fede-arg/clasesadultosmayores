@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-inline: 200px;
+  padding-inline: 00px;
 }
 .title_central h2 {
   display: flex;
@@ -61,3 +61,30 @@ footer {
   background-color: #7FB77E;
   height: 100px;
 }/*# sourceMappingURL=estilo.css.map */
+
+@media screen and (max-width:480px) {
+
+  .title_central {
+      height: 43vh;
+      background-image: url("./../imagenes/22adultos-mayores-a-moverse-1271537.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  } 
+  .yogaensilla h2{
+    font-size: 40px;
+  }   
+  .parrafito {
+      font-size: 10px;
+      color: #020700;
+      padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+
+  }
